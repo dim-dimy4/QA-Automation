@@ -1,4 +1,5 @@
-# QA Automation Project  
+![QA Automation](https://img.shields.io/badge/QA%20Automation-Selenium%20%7C%20Python-blue)
+  
 
 ## Project Description  
 This repository contains **automated tests** written using **Selenium, Python, and Pytest** to ensure the quality and reliability of web applications.  
