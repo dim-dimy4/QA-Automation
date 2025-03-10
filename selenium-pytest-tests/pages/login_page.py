@@ -19,3 +19,9 @@ class LoginPage:
     def get_error_message(self):
         """Retrieves the error message if login fails."""
         return self.browser.find_element(By.CLASS_NAME, "error-message-container").text
+    
+    def add_item_to_cart(self):
+        """Adds the first item to the cart."""
+        self.browser.find_element(By.CLASS_NAME, "inventory_item").click()
+        self.browser.find_element(By.ID, "add-to-cart-sauce-labs-backpack").click()
+
